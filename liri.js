@@ -30,10 +30,10 @@ function doTask(task) {
   }
 }
 
-function doSpotify(songname) {
+function doSpotify() {
   var song = '';
   if (param.length === 3) {
-    (songname > '' ? song = songname : song = default_song)
+    song = default_song
   } else {
     tmp = '';
     for (var i = 3; i < param.length; i++) {
