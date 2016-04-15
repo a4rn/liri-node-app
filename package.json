@@ -1,0 +1,21 @@
+{
+  "name": "liri-node-app",
+  "version": "1.0.0",
+  "description": "Language Interpretation and Recognition Interface",
+  "main": "liri.js",
+  "dependencies": {
+    "express": "^4.13.4",
+    "iron-node": "^2.2.17",
+    "node-debug": "^0.1.0",
+    "require": "^2.4.20",
+    "request": "^2.71.0",
+    "spotify": "^0.3.0",
+    "twitter": "^1.2.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rey Nicolas",
+  "license": "ISC"
+}
